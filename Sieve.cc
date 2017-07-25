@@ -24,7 +24,8 @@ using std::right; using std::setw;
       void - the function returns no value.
 
 ******************************************************************************/
-void sieve( set<int>& s, int n){
+void sieve( set<int>& s, int n)
+{
 
    int i, p = 2, set_size = n;
 
@@ -57,7 +58,8 @@ void sieve( set<int>& s, int n){
      void - the function returns no value.
 
 ******************************************************************************/
-void print_primes( const set<int>& s){
+void print_primes( const set<int>& s)
+{
 
     int NO_ITEMS = 8, ITEM_W = 6, i = 0;
 
@@ -72,7 +74,8 @@ void print_primes( const set<int>& s){
 
 
 
-int main(){
+int main()
+{
     set<int> s;
     sieve(s, 500);
     print_primes(s);
